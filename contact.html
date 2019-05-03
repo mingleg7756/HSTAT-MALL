@@ -41,6 +41,15 @@
             width: 70px;
         }
         
+        #contact h1 {
+            text-align: center;
+        }
+        
+        #address {
+            font-size: 18px;
+            text-align: center;
+        }
+        
     </style>
 </head>
 
@@ -78,64 +87,37 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">CLOTHES</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <button type="button" class="btn btn-info center-block">Click here to Explore</button> <br>
-                </div>
+    <div id="contact">
+        <h1>We’d love to hear from you</h1>
+        <div class="container">
+            <div id="address" class="col-sm-4">
+                <br> HS of Telecommunication <br>Arts & Technology <br><br>350 67th Street <br>Brooklyn, NY 11220 <br> 718.759.3403<br>
             </div>
-            <div class="col-sm-4">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">TICKETS</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <button type="button" class="btn btn-info center-block">Click here to Explore</button> <br>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="panel panel-success">
-                    <div class="panel-heading">FUNDRAISERS</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <button type="button" class="btn btn-info center-block">Click here to Explore</button> <br>
-                </div>
-            </div>
-        </div>
-    </div><br>
+            <br><div class="col-sm-6">
+                <form>
+                    <div class="form-group col-md-4">
+                        <input type="email" class="form-control" id="inputName" placeholder="Name">
+                    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" id="inputComment" rows="3" placeholder="Comment"></textarea>
+                    </div>
+                    <div class="row col-sm-4 col-sm-offset-4">
+                        <button type="button" class="btn btn-primary center-block">Submit</button>
+                    </div>
+                </form>
+                <br>
             </div>
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
-                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-                </div>
-            </div>
-        </div>
-    </div><br><br>
+
+    </div>
+    <br><br>
 
     <footer class="container-fluid text-center">
         <p>Copyright @ 2019 | HSTAT MALL</p>
-        <form class="form-inline">Get deals:
-            <input type="email" class="form-control" size="50" placeholder="Email Address">
-            <button type="button" class="btn btn-danger">Sign Up</button>
-        </form>
     </footer>
 
 </body>
