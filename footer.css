@@ -1,0 +1,14 @@
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+        
+#logo {
+    height: 70px;
+    width: 70px;
+}
+        
+#link {
+    color: red;
+    text-align: right;
+}
