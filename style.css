@@ -39,8 +39,8 @@ h2 {
 }
 
 #logo {
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
 }
 
 #link {
@@ -70,17 +70,44 @@ h2 {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    #title {
+    }
+}
+/*红橙黄绿青蓝紫*/
+@keyframes title-color {
+    0% {color: red;}
+    16% {color: orange;}
+    32% {color: yellow;}
+    48% {color: green;}
+    64% {color: cyan;}
+    80% {color: blue;}
+    100% {color: blue;}
+}
+
+@keyframes descrip-color {
+    0% {color: black;}
+    100% {color: yellow;}
+    
+}
+
 #title {
     font-weight: 900;
     font-size: 90px;
+    /*color: red;*/
+    animation-name: title-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #descrip {
     font-weight: bold;
     font-size: 180%;
+    color: black;
+    animation-name: descrip-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-@media screen and (max-width: 768px) {
-    #title {
-    }
-}
