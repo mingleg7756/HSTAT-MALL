@@ -79,3 +79,8 @@ h2 {
     font-weight: bold;
     font-size: 180%;
 }
+
+@media screen and (max-width: 768px) {
+    #title {
+    }
+}
