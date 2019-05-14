@@ -69,3 +69,13 @@ h2 {
     font-size: 18px;
     text-align: center;
 }
+
+#title {
+    font-weight: 900;
+    font-size: 90px;
+}
+
+#descrip {
+    font-weight: bold;
+    font-size: 180%;
+}
