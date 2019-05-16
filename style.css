@@ -82,7 +82,7 @@ h2 {
     48% {color: green;}
     64% {color: cyan;}
     80% {color: blue;}
-    100% {color: blue;}
+    100% {color: purple;}
 }
 
 @keyframes descrip-color {
@@ -94,9 +94,8 @@ h2 {
 #title {
     font-weight: 900;
     font-size: 90px;
-    /*color: red;*/
     animation-name: title-color;
-    animation-duration: 10s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
